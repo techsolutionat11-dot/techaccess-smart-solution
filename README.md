@@ -1,4 +1,4 @@
-  # 🌐 Tech Accessible Smart Solution
+# 🌐 Tech Accessible Smart Solution
 
 **Tech Accessible Smart Solution** is a web initiative dedicated to providing **inclusive, accessible, and assistive technology solutions**.  
 Our goal is to make technology usable for everyone — including people with visual, auditory, motor, and cognitive disabilities — through thoughtful design and implementation.
@@ -75,4 +75,4 @@ This project is released under the **MIT License** — free for personal or comm
 - [W3C Web Accessibility Initiative (WAI)](https://www.w3.org/WAI/)  
 - [WebAIM](https://webaim.org/) for accessibility guidelines and tools  
 
-        > “Accessibility is not a feature — it’s a foundation for inclusion.”
+> “Accessibility is not a feature — it’s a foundation for inclusion.”
