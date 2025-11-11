@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tech Accessible Smart Solution</title>
+<style>
+  body { font-family: Arial, sans-serif; background-color: #f9fafb; color: #222; margin: 0; line-height: 1.6; }
+  header, footer { background-color: #007acc; color: white; padding: 1em; text-align: center; }
+  main { padding: 1em; }
+  img { max-width: 100%; height: auto; border-radius: 8px; }
+  nav a { color: white; margin: 0 10px; text-decoration: none; }
+  nav a:hover, nav a:focus { text-decoration: underline; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Tech Accessible Smart Solution</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#articles">Articles</a>
+    <a href="#videos">Videos</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We provide assistive technology solutions focusing on accessibility for everyone. Our tools include support for JAWS, NVDA, TalkBack, VoiceOver, and other TTS systems.</p>
+    <img src="img/illustrations.png" alt="Friendly diverse team discussing accessibility solutions and technologies." />
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Accessibility Audits and Consulting</li>
+      <li>JAWS and NVDA Screen Reader Optimization</li>
+      <li>Mobile Accessibility (TalkBack, VoiceOver)</li>
+      <li>Training and Workshops</li>
+      <li>Custom Assistive Technology Development</li>
+    </ul>
+  </section>
+
+  <section id="articles">
+    <h2>Articles and Resources</h2>
+    <p>Learn more about accessibility best practices, testing methods, and inclusive design principles.</p>
+  </section>
+
+  <section id="videos">
+    <h2>Videos</h2>
+    <p>Watch our tutorials and accessibility awareness sessions below:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/20SHvU2PKsM" title="Accessibility video" allowfullscreen></iframe>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" aria-label="Your Name" required><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" aria-label="Your Email" required><br><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" aria-label="Your Message"></textarea><br><br>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Tech Accessible Smart Solution | <a href="#privacy" style="color: white;">Privacy Policy</a></p>
+  <p>Follow us on:
+    <a href="#" aria-label="Facebook" style="color: white;">Facebook</a> |
+    <a href="#" aria-label="LinkedIn" style="color: white;">LinkedIn</a> |
+    <a href="#" aria-label="YouTube" style="color: white;">YouTube</a> |
+    <a href="#" aria-label="Twitter" style="color: white;">Twitter</a>
+  </p>
+</footer>
+</body>
+</html>
