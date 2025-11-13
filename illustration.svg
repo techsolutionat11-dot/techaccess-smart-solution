@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" role="img" aria-labelledby="illTitle illDesc">
+  <title id="illTitle">Illustration showing diverse people collaborating on accessible technology</title>
+  <desc id="illDesc">Friendly and vibrant illustration: diverse characters using laptop, tablet, and phone to test accessibility.</desc>
+  <rect width="100%" height="100%" fill="#fff7f0"/>
+  <g transform="translate(40,30)">
+    <rect x="0" y="0" width="300" height="180" rx="12" fill="#ffdede"/>
+    <circle cx="60" cy="60" r="30" fill="#ffd27a"/>
+    <rect x="220" y="20" width="70" height="110" rx="8" fill="#6dd3ff"/>
+    <rect x="340" y="10" width="480" height="220" rx="14" fill="#e9fff6"/>
+    <text x="370" y="60" font-size="22" fill="#064a3b" font-family="Arial">Accessibility testing with screen readers</text>
+    <text x="370" y="96" font-size="16" fill="#066" font-family="Arial">JAWS, NVDA, VoiceOver, TalkBack, and TTS best practices</text>
+  </g>
+</svg>

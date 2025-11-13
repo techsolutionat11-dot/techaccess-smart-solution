@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Tech Accessible Smart Solution</title>
+  <meta name="description" content="Contact Tech Accessible Smart Solution for accessibility audits, training, or resources." />
+  <style>body{font-family:system-ui,Segoe UI,Roboto,Arial;margin:0;color:#061826;background:#fff7f3}main{max-width:900px;margin:18px auto;padding:12px}.card{background:#fff;border-radius:10px;padding:12px;box-shadow:0 4px 12px rgba(0,0,0,0.06)}label{display:block;margin-top:8px;font-weight:600}input,textarea{width:100%;padding:8px;margin-top:4px;border:1px solid #d1d5db;border-radius:6px}button{background:#ff7aa2;color:#fff;border:none;padding:10px 14px;border-radius:8px;margin-top:10px;cursor:pointer}</style>
+</head>
+<body>
+<header style="background:linear-gradient(90deg,#ff7aa2,#6dd3ff);color:#fff;padding:18px 12px;display:flex;align-items:center;gap:18px">
+  <div style="display:flex;align-items:center;gap:12px">
+    <img src="assets/logo.svg" alt="Tech Accessible Smart Solution logo" style="width:120px;height:auto" />
+  </div>
+  <nav aria-label="Primary navigation">
+    <a href="index.html" style="color:#fff;margin-right:12px">Home</a>
+    <a href="about.html" style="color:#fff;margin-right:12px">About</a>
+    <a href="services.html" style="color:#fff;margin-right:12px">Services</a>
+    <a href="contact.html" style="color:#fff;margin-right:12px">Contact</a>
+    <a href="privacy.html" style="color:#fff">Privacy</a>
+  </nav>
+</header>
+<main>
+  <section class="card" aria-labelledby="contact-title">
+    <h1 id="contact-title">Contact Us</h1>
+    <p>If you'd prefer email, you can message us directly at <a href="mailto:techsolutionat11@gmail.com">techsolutionat11@gmail.com</a></p>
+    <form action="https://formsubmit.co/techsolutionat11@gmail.com" method="POST" aria-label="Contact form to message Tech Accessible Smart Solution">
+      <label for="name">Your name</label>
+      <input id="name" name="name" type="text" required aria-required="true" />
+
+      <label for="email">Your email</label>
+      <input id="email" name="email" type="email" required aria-required="true" />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" required aria-required="true"></textarea>
+
+      <!-- Redirect to absolute thank-you page on success -->
+      <input type="hidden" name="_next" value="https://techsolutionat11-dot.github.io/techaccess-smart-solution/thank-you.html" />
+      <input type="hidden" name="_captcha" value="false" />
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+</main>
+<footer style="background:#061826;color:#fff;padding:18px 12px;margin-top:28px">
+  <div style="max-width:1000px;margin:0 auto;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;align-items:center">
+    <div>
+      <img src="assets/logo.svg" alt="Tech Accessible Smart Solution logo" style="width:96px;height:auto;vertical-align:middle" />
+    </div>
+    <div>
+      <p style="margin:0">© 2025 Tech Accessible Smart Solution</p>
+      <p style="margin:0">📧 You can also reach us directly at <a href="mailto:techsolutionat11@gmail.com" style="color:#ffd7e8">techsolutionat11@gmail.com</a></p>
+    </div>
+    <div aria-hidden="true">
+      <a href="#" aria-label="Twitter" style="margin-right:8px;color:#fff">Twitter</a>
+      <a href="#" aria-label="LinkedIn" style="margin-right:8px;color:#fff">LinkedIn</a>
+      <a href="#" aria-label="YouTube" style="color:#fff">YouTube</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
